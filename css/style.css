@@ -1,0 +1,527 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../font/Lato-Bold.ttf") format("truetype");
+}
+
+#navbar {
+  padding-top: 50px;
+  background-image: url(../img/Bg.png);
+  height: 100vh;
+}
+
+#navbar .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#navbar .container .navbar-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#navbar .container .navbar-box .navbar-box-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .container .navbar-box .navbar-box-top i {
+  margin-right: 10px;
+}
+
+#navbar .container .navbar-box .navbar-box-top h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#navbar .container .navbar-box .navbar-box-center, #navbar .container .navbar-box .navbar-box-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#navbar .container .navbar-box .navbar-box-center ul li, #navbar .container .navbar-box .navbar-box-bottom ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+#navbar .container .navbar-box .navbar-box-center ul li a, #navbar .container .navbar-box .navbar-box-bottom ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#navbar .container .navbar-box .navbar-box-center ul li a:hover, #navbar .container .navbar-box .navbar-box-bottom ul li a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+#navbar .container .navbar-box .navbar-box-bottom img {
+  padding-right: 7px;
+}
+
+#navbar .container .navbar-box .navbar-box-bottom select {
+  border: none;
+  color: white;
+  padding: 0 5px;
+  background-color: transparent;
+}
+
+#navbar .container .navbar-box .navbar-box-bottom select:focus {
+  outline: transparent;
+}
+
+#navbar .container .navbar-box .navbar-box-bottom select option {
+  background-color: red;
+}
+
+#navbar .container .navbar-box .navbar-box-bottom button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+
+#navbar .container .navbar-box .navbar-box-bottom button:hover {
+  cursor: pointer;
+  border-color: blue;
+  color: blue;
+}
+
+#navbar .header {
+  margin-top: 177px;
+  color: white;
+  text-align: center;
+}
+
+#navbar .header .container-p {
+  width: 35%;
+  margin: 0 auto;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#navbar .header h1 {
+  font-size: 72px;
+  text-transform: uppercase;
+}
+
+#navbar .header button {
+  background-color: #fff;
+  color: #ED4C5C;
+  padding: 16px 50px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+#navbar .header button:hover {
+  cursor: pointer;
+  background-color: #ED4C5C;
+  color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.tbody-box {
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tbody-box .tbody-box-blok-1 {
+  width: 40%;
+}
+
+.tbody-box .tbody-box-blok-1 h1 {
+  font-size: 36px;
+  line-height: 43px;
+  padding: 24px 0;
+}
+
+.tbody-box .tbody-box-blok-1 p {
+  line-height: 20px;
+  padding: 30px 0;
+}
+
+.tbody-box .tbody-box-blok-1 a {
+  color: #ED4C5C;
+  text-decoration: none;
+}
+
+.tbody-box .tbody-box-blok-1 a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.tbody-box .tbody-box-blok-2 {
+  position: relative;
+}
+
+.tbody-box .tbody-box-blok-2 .tbody-position {
+  position: absolute;
+  top: 45%;
+  left: -7%;
+}
+
+.tbody-box .tbody-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.tbody-1 h1 {
+  font-size: 36px;
+  margin-top: 160px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.tbody-2-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tbody-2-box .tbody-2-box-blok-1 {
+  position: relative;
+  text-align: center;
+}
+
+.tbody-2-box .tbody-2-box-blok-1 .tbody-2-blog-1 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  border-radius: 8px;
+  width: 70%;
+  padding: 20px;
+  background-color: white;
+  -webkit-box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.tbody-2-box .tbody-2-box-blok-1 .tbody-2-blog-1 h2 {
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.tbody-2-box .tbody-2-box-blok-1 .tbody-2-blog-1 p {
+  padding-bottom: 20px;
+}
+
+.tbody-2-box .tbody-2-box-blok-1 .tbody-2-blog-1 a {
+  text-decoration: none;
+  color: #ED4C5C;
+}
+
+.tbody-2-box .tbody-2-box-blok-1 .tbody-2-blog-1 a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.tbody-3-box {
+  margin-top: 187px;
+  margin-bottom: 55px;
+}
+
+.tbody-3-box h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.tbody-4-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tbody-4-box .tbody-4-blok-1 {
+  position: relative;
+  text-align: center;
+  width: 25%;
+}
+
+.tbody-4-box .tbody-4-blok-1 h1 {
+  font-size: 100px;
+  opacity: 0.2;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tbody-4-box .tbody-4-blok-1 .tbody-4-blog-1 {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+}
+
+.tbody-4-box .tbody-4-blok-1 .tbody-4-blog-1 h3 {
+  padding: 10px;
+}
+
+.tbody-4-box .tbody-4-blok-1 .tbody-4-blog-1 img {
+  width: 60px;
+  height: 60px;
+}
+
+.tbody-5 {
+  margin-top: 200px;
+  background-color: #ED4C5C;
+  padding: 115px 0;
+}
+
+.tbody-5 .tbody-5-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tbody-5 .tbody-5-box .tbody-5-blok-1 {
+  color: white;
+  width: 40%;
+}
+
+.tbody-5 .tbody-5-box .tbody-5-blok-1 h1 {
+  font-size: 36px;
+  line-height: 43px;
+  padding-bottom: 25px;
+}
+
+.tbody-5 .tbody-5-box .tbody-5-blok-1 p {
+  padding-bottom: 40px;
+}
+
+.tbody-5 .tbody-5-box .tbody-5-blok-1 img {
+  padding: 0 20px;
+}
+
+.tbody-5 .tbody-5-box .tbody-5-blok-2 {
+  position: relative;
+}
+
+.tbody-5 .tbody-5-box .tbody-5-blok-2 .tbody-5-blok-2-index {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.tbody-5 .tbody-5-box .tbody-5-blok-2 .tbody-5-box-blok-1 {
+  position: absolute;
+  top: 6%;
+  left: -8%;
+  z-index: 1;
+}
+
+.tbody-5 .tbody-5-box .tbody-5-blok-2 .tbody-5-box-blok-2 {
+  position: absolute;
+  top: 6%;
+  right: -8%;
+  z-index: 1;
+}
+
+.tbody-6 {
+  margin-top: 120px;
+}
+
+.tbody-6 .tbody-6-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-1 {
+  width: 100%;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-1 h1 {
+  font-size: 36px;
+  padding-bottom: 70px;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-1 p {
+  line-height: 20px;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-2 {
+  width: 100%;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-2 .tbody-6-input-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-2 input {
+  font-size: 16px;
+  width: 40%;
+  height: 60px;
+  padding-left: 30px;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-2 input:focus {
+  outline: transparent;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-2 .tbody-6-input {
+  margin-top: 25px;
+  width: 95%;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-2 select {
+  color: #757575;
+  margin-top: 25px;
+  padding-right: 505px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  border: 1px solid #333;
+  border-radius: 6px;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-2 select:focus {
+  outline: transparent;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-2 .tbody-6-btn {
+  padding: 16px 34px;
+  text-transform: uppercase;
+  background-color: #ED4C5C;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  margin-top: 30px;
+  color: white;
+}
+
+.tbody-6 .tbody-6-box .tbody-6-box-blok-2 .tbody-6-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #ED4C5C;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#footer {
+  margin-top: 200px;
+}
+
+#footer .footer-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#footer .footer-box ul li {
+  color: black;
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+#footer .footer-box a {
+  color: black;
+  text-decoration: none;
+}
+
+#footer .footer-box a:hover {
+  color: #ED4C5C;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#footer .footer-box h2 {
+  padding-bottom: 30px;
+}
+
+#footer .footer-box i {
+  padding-right: 14px;
+}
+
+#footer .footer-box i:hover {
+  cursor: pointer;
+  color: #ED4C5C;
+}
+
+#footer p {
+  margin-top: 130px;
+  margin-bottom: 86px;
+}
+/*# sourceMappingURL=style.css.map */
